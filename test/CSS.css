@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* 去掉内边距和外边距 */
+*{
+	margin: 0;padding: 0;
+	}
+
+body{
+	min-width: 1000px;
+	background-color: #919191;font-family: "微软雅黑";font-size: 80%;
+	}
+
+h2{
+	font-size: 2.5em;line-height: 50px;
+	}
+
+h3{
+	color: gray;
+	font-size: 2em;line-height: 50px;
+	}
+
+span{
+	color: gray;
+	font-size: 1.5em;line-height: 50px;
+	}
+
+p{
+	text-indent: 2em;
+	line-height: 1.5em;
+	}
+
+p, li, figcaption{
+	font-size: 1.5em;
+}
+
+/*头*/
+header, footer{
+	height: 60px;background-color: #161616;
+	}
+
+header img{
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-right: 24px;
+	}
+
+nav li{
+	display: inline;/*内联*/
+	margin-left: 30px;line-height: 60px;
+	}
+
+nav li a{
+	color: white;
+	font-size: 0.9em;
+	}
+
+/*中间段落*/
+article, aside/*默认设置*/{
+	margin: 25px 460px 25px 25px;
+	padding: 50px 25px;border: solid 2px #c0c0c0;/* 内外边距 边框*/
+	background-color: white;/* 背景 */
+	box-shadow: 2px 2px 2px 2px gray;/* 边框阴影 */
+	}
+
+.article_img /* 段落中的图片边距 */{
+	padding: 30px 0;
+}
+
+#article_2sd li{
+	padding-left: 20px;
+	list-style-type: none;
+	}
+
+#article_3th figure/* 图片列表中图片边框 */{
+	width: 150px;height: 200px;
+	margin: 20px 0px 0px 50px;border: 2px solid #c0c0c0;
+	display: inline-block;
+	}
+
+ #article_3th figcaption{
+	height: 40px;
+	text-align: center;
+	vertical-align: bottom;
+	line-height: 40px;
+	}
+
+#article_3th figure img{
+	width: 130px;height: 150px;
+	padding: 0px 10px 10px 10px;
+	}
+
+#article_4th li{
+	margin-left: 40px;
+}
+
+#article_4th table{
+	width: 100%;
+	border-collapse: collapse;
+	}
+
+#article_4th table caption{
+	text-align: left;font-size: 1.5em
+	}
+
+#article_4th table th{
+	color: white;
+	background-color: black;
+	}
+
+#article_4th table th, #article_4th table td{
+	text-align: left;
+	padding: 3px;
+	border: solid 2px #c0c0c0;
+	font-size: 1.5em;
+	}
+
+#total, #result{
+	background-color: silver;
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+/*侧边栏 */
+aside{
+		float: right;/*右侧浮动*/
+		clear:both;
+		width: 330px;
+		margin-top: 25px;margin-right: 25px;border: solid 2px #c0c0c0;/*边框*/
+		padding: 40px 25px;/*填充*/
+		background-color: white;
+		box-shadow: 2px 2px 2px 2px gray;
+		}
+
+form{
+	font-size: 1em;
+}
+
+#label_email, #label_psd, #label_confirm_psd, #label_sex_title, #label_city, #label_hobby, #lable_des{
+	display: block;/*显示*/
+	float: left;
+	width: 40%;
+	text-align: right;/*文本对齐*/
+	}
+
+.alert{
+	margin-left: 40%;/*边距*/
+	text-align: left; color: gray;
+	line-height: 30px;
+	}
+
+.label_sex{
+	margin-right: 10px;
+}
+
+textarea/*多行文本框*/{
+	width: 60%;height: 80px;
+	}
+
+button {
+	width: 100%;height: 36px;color: white;
+	border-radius: 6px;background-color: #273bc8;font-size: 1.2em;
+	}
+/*底*/
+footer p{
+	text-align: center;
+	color: white;font-size: 1.3em;line-height: 60px;
+	}
